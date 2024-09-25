@@ -15,7 +15,7 @@ app.use(helmet({
 }));
 app.use(cors());
 
-app.use('/api/', router);
+app.use(router);
 
 app.get('/', (req, res) => {
     return res.send("Welcome to express!");

@@ -1,1 +1,6 @@
-
+body {
+    background-image: url('../public/LOGO.jpg'); /* Aquí va la ruta de tu logo */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

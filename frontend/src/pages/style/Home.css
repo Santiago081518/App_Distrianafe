@@ -1,0 +1,38 @@
+.article_home {
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 1em 3em 3em 3em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.section_home {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 3px solid #449bb7;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: ease-in-out 0.3s;
+}
+
+.section_home:hover {
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.section_home h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.section_home p {
+    text-align: justify;
+    font-size: 25px;
+    color: #00548b;
+}
